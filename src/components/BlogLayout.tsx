@@ -31,20 +31,10 @@ export const BlogLayout = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      {/* Header with navigation */}
+      {/* Simple header with logo only */}
       <header className="border-b border-border/50 bg-background/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="max-w-7xl mx-auto px-6 py-4">
-          <div className="flex items-center justify-between">
-            <div className="flex items-center space-x-8">
-              <h1 className="text-xl font-semibold text-foreground">ModernBlog</h1>
-              <nav className="hidden md:flex space-x-6 text-sm">
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Home</a>
-                <a href="#" className="text-foreground font-medium">News</a>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">About</a>
-                <a href="#" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
-              </nav>
-            </div>
-          </div>
+          <h1 className="text-xl font-semibold text-foreground">eBike News</h1>
         </div>
       </header>
 

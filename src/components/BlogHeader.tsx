@@ -13,12 +13,11 @@ interface BlogHeaderProps {
 
 const categories = [
   'All',
-  'Company',
-  'Research',
-  'Product',
-  'Safety',
-  'Security',
-  'Global Affairs'
+  'Electric Bikes',
+  'Battery Tips',
+  'Charging Stations',
+  'Maintenance',
+  'New Launches'
 ];
 
 export const BlogHeader = ({
@@ -37,7 +36,7 @@ export const BlogHeader = ({
           News
         </h1>
         <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-          Stay updated with the latest insights, announcements, and developments in AI technology
+          Stay updated with the latest insights, reviews, and developments in electric bike technology
         </p>
       </div>
 
