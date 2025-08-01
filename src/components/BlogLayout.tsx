@@ -64,12 +64,21 @@ export const BlogLayout = () => {
 
       {/* Footer */}
       <footer className="border-t border-border/50 bg-background mt-20">
-        <div className="max-w-7xl mx-auto px-6 py-12">
-          <div className="text-center space-y-4">
-            <h3 className="text-lg font-semibold text-foreground">ModernBlog</h3>
-            <p className="text-sm text-muted-foreground max-w-md mx-auto">
-              A modern minimalist platform for sharing insights and innovations in technology and artificial intelligence.
-            </p>
+        <div className="max-w-7xl mx-auto px-6 py-8">
+          <div className="flex flex-col items-center space-y-6">
+            {/* Logo */}
+            <h3 className="text-lg font-semibold text-foreground">eBike News</h3>
+            
+            {/* Categories */}
+            <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground">
+              <a href="#" className="hover:text-foreground transition-colors">Electric Bikes</a>
+              <a href="#" className="hover:text-foreground transition-colors">Battery Tips</a>
+              <a href="#" className="hover:text-foreground transition-colors">Charging Stations</a>
+              <a href="#" className="hover:text-foreground transition-colors">Maintenance</a>
+              <a href="#" className="hover:text-foreground transition-colors">New Launches</a>
+            </div>
+            
+            {/* Legal Links */}
             <div className="flex justify-center space-x-6 text-xs text-muted-foreground">
               <a href="#" className="hover:text-foreground transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-foreground transition-colors">Terms of Service</a>
